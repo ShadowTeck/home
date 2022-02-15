@@ -76,68 +76,220 @@
     <!-- End Hero -->
 
     <main>
-        <section id="skills" class="skills">
+
+        <section style="margin-bottom: 0px;" id="skills" class="skills section-bg">
+            <div class="container">
+    
+                <div style="text-align: center;" class="section-title">
+                    <h2>Skills</h2>
+                    <p><em>Take a look at everything I know!</em></p>
+                </div>
+    
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="skills-flters">
+                            <li data-filter=".filter-coding" class="filter-active">Coding</li>
+                            <li data-filter=".filter-video">Videography</li>
+                            <li data-filter=".filter-design">Design</li>
+                            <li data-filter=".filter-creativity">Creativity</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="row skills-container">
+    
+                    <div class="skills-item filter-coding">
+                        <div>
+                            <h3>HTML</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-coding">
+                        <div>
+                            <h3>CSS/SASS</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-coding">
+                        <div>
+                            <h3>Bootstrap</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="90">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-coding">
+                        <div>
+                            <h3>JavaScript/jQuery</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-coding">
+                        <div>
+                            <h3>React.js/Next.js</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-coding">
+                        <div>
+                            <h3>Express.js/Node.js</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-video">
+                        <div>
+                            <h3>Video Editing (Sony Vegas Pro 15)</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-video">
+                        <div>
+                            <h3>Photography/Photo Editing (Photoshop/Pixlr)</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-video">
+                        <div>
+                            <h3>Audio Recording (Audacity)</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-video">
+                        <div>
+                            <h3>Film Broadcasting (OBS)</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-design">
+                        <div>
+                            <h3>Web Design (Adobe XD)</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-design">
+                        <div>
+                            <h3>Photoshop/Pixlr</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-item filter-creativity">
+                        <div>
+                            <h3>Creativity</h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+<!-- OLD STATIC SKILLS SECTION
+        <section id="skills" class="projects skills section-bg">
             <div class="container">
                 <div class="section-title">
                     <h2>Skills</h2>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul id="skills-flters">
+                                <li data-filter="*" class="filter-active">All</li>
+                                <li data-filter=".filter-coding">Coding</li>
+                                <li data-filter=".filter-events">Design</li>
+                                <li data-filter=".filter-people">Videography</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="prog-wrap">
+                <div class="row skills-container">
+                <div class="prog-wrap filter-events skills-item">
                     <h3>HTML</h3>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
                     </div>
                 </div>
-                <div class="prog-wrap">
+                <div class="prog-wrap filter-coding skills-item">
                     <h3>CSS/SASS</h3>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
                     </div>
                 </div>
-                <div class="prog-wrap">
+                <div class="prog-wrap filter-coding skills-item">
                     <h3>Bootstrap</h3>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="90">90%</div>
                     </div>
                 </div>
-                <div class="prog-wrap">
-                    <h3>JavaScript</h3>
+                <div class="prog-wrap filter-coding skills-item">
+                    <h3>JavaScript/jQuery</h3>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
                     </div>
                 </div>
-                <div class="prog-wrap">
-                    <h3>Jquery</h3>
+                <div class="prog-wrap filter-coding skills-item">
+                    <h3>React.js/Next.js</h3>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">35%</div>
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
+                    </div>
+                </div>
+                <div class="prog-wrap filter-coding skills-item">
+                    <h3>Express.js/Node.js</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">75%</div>
                     </div>
                 </div>
             </div>
+            </div>
         </section>
-
+-->
 
         <section class="resume" id="resume">
             <div class="container">
-
                 <div style="text-align: center;" class="section-title">
                     <h2>Resume</h2>
                     <p><em>Browse all my expertises and knowledge!</em></p>
+                   
                 </div>
-
+                <a style="display: flex; justify-content: center;" href="./downloads/resume.pdf" download rel="noopener noreferrer" target="_blank">
+                    Download Resume Here
+                 </a>
                 <div class="row">
                     <div class="col-lg-6">
                         <h3 class="resume-title">Summary</h3>
                         <div class="resume-item pb-0">
                             <h4>Liam Stockton</h4>
-                            <p><em>A Creativly Modivated person who is inspired by Coding, Film/Photography, and many more outlets of Creative Expression!</em></p>
+                            <p><em>Creative Director of Web Development and Videography 
+                            </em></p>
                             <p>
                             <ul>
-                                <li>Surprise, AZ</li>
+                                <li>Greater Phoenix Area, AZ</li>
                                 <li>(480)-662-8471</li>
                                 <li>shadowteckst@gmail.com</li>
                             </ul>
                             </p>
                         </div>
-
                         <h3 class="resume-title">Education</h3>
                         <div class="resume-item">
                             <h4>HighSchool Diploma</h4>
@@ -146,20 +298,25 @@
                             <p>Competed in SkillsUSA, Girls in Tech, and Cactus-Con Competitions all while being in Coding Club and being president of the club for a year!</p>
                             <ul>
                                 <li>3.8 GPA</li>
-                                <li>AP Computer Science</li>
-                                <li>3+ year Coding Classes</li>
+                                <li>Completed AP Computer Science with a 3 on the exam and A’s</li>
+                                <li>Completed AP World History with a 4 on the exam and A’s</li>
+                                <li>Enrolled in Dual Enrollment English 101 & 102 for Rio Salado Community College</li>
+                                <li>4 years of Coding Classes</li>
                                 <li>Coding Internship</li>
+                                <li>President of SRHS Coding Club</li>
                             </ul>
                         </div>
                         <div class="resume-item">
-                            <h4>Microsoft Certification's</h4>
+                            <h4>2 Year Coding Trade School Degree</h4>
                             <h5>2022</h5>
                             <p><em>West-Mec Central Campus Coding</em></p>
                             <p>Learned to program in several lanuages such as JavaScript, React, and Jquery</p>
                             <ul>
                                 <li>4.0 GPA</li>
-                                <li>Passed Certifications</li>
-                                <li>2 years Coding Classes</li>
+                                <li>Passed Microsoft Certifications</li>
+                                <li>Enrolled in Dual Enrollment Coding for Estrella Mountain Community College</li>
+                                <li>VP of Media Relations</li>
+                                <li>Participated in FBLA & BAA’s</li>
                             </ul>
                         </div>
                         <!--Add more as needed-->
@@ -167,16 +324,16 @@
                     <div class="col-lg-6">
                         <h3 class="resume-title">Certifications</h3>
                         <div class="resume-item">
-                            <h4>Microsoft Front-end Development Certification</h4>
-                            <h5>2022</h5>
-                            <p><em>Microsoft</em></p>
+                            <h4>MTA: HTML5 Application Development Fundamentals - Certified 2021</h4>
+                            <h5>2021</h5>
+                            <p><em>Earners of the MTA: HTML5 Application Development Fundamentals certification have demonstrated core HTML5 client application development skills that will run on today's touch-enabled devices (PCs, tablets, and phones). The MTA program provides an appropriate entry point to a future career in technology.</em></p>
                         </div>
                         <!--Add more as needed-->
                         <h3 class="resume-title">Professional Experiance</h3>
                         <div class="resume-item">
                             <h4>Retail Sales Associate</h4>
-                            <h5>8+ Months</h5>
-                            <p><em>Goodwill, Cactus & Reems</em></p>
+                            <h5>1 YEAR 3 MONTHS</h5>
+                            <p><em>Goodwill Industries - Surprise, AZ</em></p>
                             <!--Westmec, Glendale, AZ-->
                             <ul>
                                 <li>Trained several other employees</li>
@@ -212,7 +369,7 @@
     
                 <div style="text-align: center;" class="section-title">
                     <h2>Projects</h2>
-                    <p>Here are some of my best project s</p>
+                    <p><em>Check out my best projects!</em></p>
                 </div>
     
                 <div class="row">
