@@ -206,7 +206,24 @@ window.addEventListener('load', () => {
     });
 
     let skillsFilters = select('#skills-flters li', true);
-
+    let display = select('.skills-item', true);
+    let coding = select('.filter-coding', true)
+    //console.log(display[0,0].classList);
+    //console.log(display[0.0].classList.value);
+    /* for(let i = 0; i < display.length; i++) {
+      let displayFilter = display[0,i].classList.value
+      console.log(displayFilter);
+      if(displayFilter === "skills-item filter-coding") {
+        
+      } else {
+        console.log('error');
+      }
+    }*/
+      coding.forEach(function(el) {
+        el.classList.add('display');
+      });
+      this.classList.add('filter-active');
+    //this.classList.add('filter-active');
     on('click', '#skills-flters li', function(e) {
       e.preventDefault();
       skillsFilters.forEach(function(el) {

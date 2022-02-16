@@ -682,6 +682,10 @@ section {
     color: #0563bb;
 }
 
+.display {
+    display: none;
+}
+
 .skills #skills-flters li:last-child {
     margin-right: 0;
 }
