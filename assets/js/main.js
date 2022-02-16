@@ -219,16 +219,19 @@ window.addEventListener('load', () => {
         console.log('error');
       }
     }*/
-      coding.forEach(function(el) {
-        el.classList.add('display');
-      });
-      this.classList.add('filter-active');
+      // coding.forEach(function(el) {
+      //   el.classList.add('display');
+      // });
+      // this.classList.add('filter-active');
     //this.classList.add('filter-active');
     on('click', '#skills-flters li', function(e) {
       e.preventDefault();
       skillsFilters.forEach(function(el) {
         el.classList.remove('filter-active');
       });
+      display.forEach(function(el) {
+        el.classList.remove('display');
+      })
       this.classList.add('filter-active');
 
       skillsIsotope.arrange({
